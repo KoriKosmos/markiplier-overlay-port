@@ -12,3 +12,10 @@ out/
 *.class
 hs_err_pid*
 replay_pid*
+
+# Original mod by Rrat — not ours to publish
+original/
+
+# Claude Code
+CLAUDE.md
+.claude/
