@@ -6,6 +6,5 @@ NeoForge 1.21.1 port of the [Markiplier overlay mod](https://modrinth.com/user/R
 
 Original mod by **Rrat**
 - Modrinth: https://modrinth.com/user/Rratt
-- YouTube: https://www.youtube.com/@ratsmacker3453
 
 Original mod licensed under CC0 1.0 (public domain). This port is by KoriKosmos.
