@@ -8,10 +8,13 @@ Displays a randomly-cycling Markiplier screenshot as a HUD overlay while you pla
 
 Improvements over the original Fabric 1.20.1 mod:
 
-- **In-game config screen** - adjust settings directly from the NeoForge mod menu, no config file editing required
+- **In-game config screen** - adjust all settings directly from the NeoForge mod menu, no config file editing required
 - **Configurable overlay dimensions** - set your preferred width and height in-game (defaults: 125x115 px)
+- **Configurable overlay position** - set X and Y offset from the screen edge (default: top-left corner)
+- **Configurable cycle interval** - control how fast the images cycle, from 200ms to 60 seconds (default: 2s)
+- **Keybind toggle** - assign a key in the Controls menu to show/hide the overlay without touching the HUD
 
-Everything else works the same as the original: 27 screenshots cycling at random every 2 seconds, hidden when the HUD is toggled off (F1).
+Everything else works the same as the original: 27 screenshots cycling at random, hidden when the HUD is toggled off (F1).
 
 ## Credits
 
