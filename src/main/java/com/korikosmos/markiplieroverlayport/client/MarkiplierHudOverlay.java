@@ -2,6 +2,7 @@ package com.korikosmos.markiplieroverlayport.client;
 
 // Original Fabric mod by Rrat (https://modrinth.com/user/Rratt), ported to NeoForge 1.21.1 by KoriKosmos
 
+import com.korikosmos.markiplieroverlayport.MarkiplierConfig;
 import com.korikosmos.markiplieroverlayport.MarkiplierOverlayPort;
 import net.minecraft.client.Minecraft;
 import net.minecraft.resources.ResourceLocation;
@@ -30,7 +31,9 @@ public class MarkiplierHudOverlay {
                 MarkiplierOverlayPort.MOD_ID,
                 "textures/screenshot_" + currentImage + ".png"
             );
-            event.getGuiGraphics().blit(texture, 0, 0, 0.0F, 0.0F, 125, 115, 125, 115);
+            int w = MarkiplierConfig.IMAGE_WIDTH.get();
+            int h = MarkiplierConfig.IMAGE_HEIGHT.get();
+            event.getGuiGraphics().blit(texture, 0, 0, 0.0F, 0.0F, w, h, w, h);
         }
     }
 
